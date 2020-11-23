@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 /* ==================================
-        Main Navigation Bar 
+        Navigation Bar 
  ==================================*/
  .main-nav,
  .main-nav ul
@@ -41,14 +41,11 @@ body {
 .nav-links:hover {
     background-color: #222;
 }
-.nav-links {
+ul a  {
     color: #66fcf1;
     text-decoration: none;
 }
-.nav-links:visited {
-    color: #66fcf1;
-    text-decoration: none;
-}
+
 .page-name {
     margin: 5px 0 15px 0;
     color: #66fcf1;
@@ -100,7 +97,6 @@ body {
         }
     .nav-links:hover  {
         background: none;
-        text-decoration: underline;
      }
      .page-name {
          margin: auto auto auto 5px;
