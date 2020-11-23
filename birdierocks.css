@@ -51,7 +51,7 @@ ul a  {
     color: #66fcf1;
 }
 /* ==================================
-    Welcome Section for Main Page 
+            Main Page 
  ==================================*/
  
  .welcome-heading{
@@ -79,28 +79,35 @@ ul a  {
     .main-img {
     width: 100%;
 }
+.main-img-div {
+    display: flex;
+    justify-content: center;
+}
 
 /* ==================================
     Media Queries for Navigation
  ==================================*/
 
  @media (min-width: 768px) {
-     .main-nav,
-     .main-nav ul {
-         display: flex;
-         flex-direction: row;
-     }
-     .nav-links {
-         width: auto;
-         background: none;
-         margin: 10px 5px auto auto;
-        }
-    .nav-links:hover  {
-        background: none;
-     }
-     .page-name {
-         margin: auto auto auto 5px;
-     }
+.main-nav,
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.nav-links {
+    width: auto;
+    background: none;
+    margin: 10px 5px auto auto;
+}
+.nav-links:hover  {
+background: none;
+}
+.page-name {
+    margin: auto auto auto 50px;
+}
+.main-nav ul {
+    margin-right: 50px;
+}
  }
 
  /* ==================================
@@ -127,7 +134,7 @@ ul a  {
     object-fit: cover;
     border-radius: 10px;
     position: relative;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
 }
 .info-name {
     font-size: 21px;
@@ -149,7 +156,7 @@ p.bug-info  {
 }
 
     /* ==================================
-    Media Queries for Bug Imgs
+    Media Queries for Imgs
  ==================================*/
 
  @media (min-width: 768px) {
@@ -158,6 +165,12 @@ p.bug-info  {
 .bug-pic {
     height: 500px;
     width: 500px;
+}
+.main-img {
+    align-self: center;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
 }
  }
 
@@ -190,7 +203,7 @@ p.bug-info  {
     object-fit: cover;
     border-radius: 10px;
     position: relative;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
 }
 .info-name {
     font-size: 21px;
