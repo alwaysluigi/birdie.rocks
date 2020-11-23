@@ -45,6 +45,10 @@ body {
     color: #66fcf1;
     text-decoration: none;
 }
+.nav-links:visited {
+    color: #66fcf1;
+    text-decoration: none;
+}
 .page-name {
     margin: 5px 0 15px 0;
     color: #66fcf1;
