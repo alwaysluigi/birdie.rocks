@@ -1,0 +1,226 @@
+/* ==================================
+            Main Page 
+ ==================================*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0c10;
+    color: #45a29e;
+    width: 100%;
+}
+/* ==================================
+        Main Navigation Bar 
+ ==================================*/
+ .main-nav,
+ .main-nav ul
+ {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-left: 0;
+}
+.main-nav{
+    border-bottom: 1px #666 solid;
+    top: 0;
+}
+.main-nav ul{
+    margin: 0 0 10px 0;
+}
+.nav-links {
+    list-style-type: none;
+    background-color: #1f2833;
+    width: 100%;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.nav-links:hover {
+    background-color: #222;
+}
+.nav-links a{
+    color: #66fcf1;
+    text-decoration: none;
+}
+.page-name {
+    margin: 5px 0 15px 0;
+    color: #66fcf1;
+}
+/* ==================================
+    Welcome Section for Main Page 
+ ==================================*/
+ 
+ .welcome-heading{
+     text-align: center;
+     box-sizing: border-box;
+     padding: 10px 0;
+    }
+    .whats-new {
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .whats-new h2 {
+        color: orangered;
+        text-transform: uppercase;
+    }
+    .whats-new p {
+        text-align: center;
+        margin: 0 0 10px 0;
+    } 
+    .main-img {
+    width: 100%;
+}
+
+/* ==================================
+    Media Queries for Navigation
+ ==================================*/
+
+ @media (min-width: 768px) {
+     .main-nav,
+     .main-nav ul {
+         display: flex;
+         flex-direction: row;
+     }
+     .nav-links {
+         width: auto;
+         background: none;
+         margin: 10px 5px auto auto;
+        }
+    .nav-links:hover  {
+        background: none;
+        text-decoration: underline;
+     }
+     .page-name {
+         margin: auto auto auto 5px;
+     }
+ }
+
+ /* ==================================
+            Bug Page
+ ==================================*/
+.bug-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    color: #66fcf1;
+    max-width: 100%;
+}
+.bug-pic {
+     display: flex;
+     height: 250px;
+     width: 250px;
+     object-fit: cover;
+     margin: 5px auto 5px auto;
+     justify-content: center;
+    }
+.bug-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    transition-duration: 250ms;
+}
+.info-name {
+    font-size: 21px;
+}
+.bug-info{
+    position: absolute;
+    opacity: 0;
+    align-self: center;
+    font-size: 12px;
+}
+p.bug-info  {
+    text-align: center;
+}
+.bug-pic:hover img {
+    opacity: .1;
+}
+.bug-pic:hover .bug-info {
+    opacity: 1;
+}
+
+    /* ==================================
+    Media Queries for Bug Imgs
+ ==================================*/
+
+ @media (min-width: 768px) {
+
+
+.bug-pic {
+    height: 500px;
+    width: 500px;
+}
+ }
+
+ 
+ /* ==================================
+            Reptile Page
+ ==================================*/
+ /* ==================================
+            Birds Page
+ ==================================*/
+
+ .bird-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    color: #66fcf1;
+    max-width: 100%;
+}
+.bird-pic {
+     display: flex;
+     height: 250px;
+     width: 250px;
+     object-fit: cover;
+     margin: 5px auto 5px auto;
+     justify-content: center;
+    }
+.bird-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    transition-duration: 250ms;
+}
+.info-name {
+    font-size: 21px;
+}
+.bird-info{
+    position: absolute;
+    opacity: 0;
+    align-self: center;
+    font-size: 12px;
+}
+p.bird-info  {
+    text-align: center;
+}
+.bird-pic:hover img {
+    opacity: .1;
+}
+.bird-pic:hover .bird-info {
+    opacity: 1;
+}
+
+    /* ==================================
+    Media Queries for bird Imgs
+ ==================================*/
+
+ @media (min-width: 768px) {
+    .bird-pic {
+        height: 500px;
+        width: 500px;
+    }
+     }
+ /* ==================================
+            Video Page
+ ==================================*/
