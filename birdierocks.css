@@ -1,7 +1,19 @@
 /* ==================================
-            Main Page 
+           Fonts
  ==================================*/
+@font-face {
+    font-family: abel;
+    src: url(./fonts/Abel-Regular.ttf)
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(./fonts/Ubuntu-Regular.ttf)
+}
 
+
+/* ==================================
+
+ ==================================*/
 
 body {
     margin: 0;
@@ -44,20 +56,23 @@ body {
 ul a  {
     color: #66fcf1;
     text-decoration: none;
+    font-family: abel, sans-serif;
 }
 
 .page-name {
     margin: 5px 0 15px 0;
     color: #66fcf1;
+    font-family: abel, sans-serif;
 }
 /* ==================================
-            Main Page 
- ==================================*/
- 
- .welcome-heading{
-     text-align: center;
-     box-sizing: border-box;
-     padding: 10px 0;
+Main Page 
+==================================*/
+
+.welcome-heading{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-family: abel, sans-serif;
     }
     .whats-new {
         border-top: 1px solid #666;
@@ -67,6 +82,7 @@ ul a  {
         align-items: center;
         width: 50%;
         margin: 0 auto;
+        font-family: ubuntu, Arial, Helvetica, sans-serif;
     }
     .whats-new h2 {
         color: orangered;
@@ -138,12 +154,14 @@ background: none;
 }
 .info-name {
     font-size: 21px;
+    font-family: abel;
 }
 .content-info{
     position: absolute;
     opacity: 0;
     align-self: center;
     font-size: 12px;
+    font-family: ubuntu, arial, helvetica, sans-serif;
 }
 p.content-info  {
     text-align: center;
