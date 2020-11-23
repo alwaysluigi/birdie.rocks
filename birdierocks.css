@@ -190,6 +190,12 @@ p.content-info  {
     width: 500px;
     object-fit: cover;
 }
+.content-info {
+    font-size: 21px;
+}
+.info-name {
+    font-size: 42px;
+}
  }
 
  
