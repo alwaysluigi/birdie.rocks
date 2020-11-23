@@ -41,7 +41,7 @@ body {
 .nav-links:hover {
     background-color: #222;
 }
-.nav-links a{
+.nav-links {
     color: #66fcf1;
     text-decoration: none;
 }
