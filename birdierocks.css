@@ -141,7 +141,7 @@ background: none;
      height: 250px;
      width: 250px;
      object-fit: cover;
-     margin: 5px auto 5px auto;
+     margin: 5px auto 10px auto;
      justify-content: center;
     }
 .content-pic img {
