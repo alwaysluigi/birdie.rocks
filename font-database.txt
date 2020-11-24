@@ -1,0 +1,41 @@
+DIN 2014 Light
+font-family: din-2014, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+DIN 2014 Italic
+font-family: din-2014, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+DIN 2014 Regular
+font-family: din-2014, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+DIN 2014 Demi
+font-family: din-2014, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+DIN 2014 Narrow Light
+font-family: din-2014-narrow, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+DIN 2014 Narrow Regular
+font-family: din-2014-narrow, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+DIN 2014 Narrow Demi
+font-family: din-2014-narrow, sans-serif;
+font-weight: 600;
+font-style: normal;
+
